@@ -18,11 +18,12 @@ Diseñar un módulo automático dentro de la app Mi Movistar para:
 roaming_system/
 │
 ├── data/
-│   └── paquetes.py
+│   └── packages.py
 │
 ├── domain/
-│   ├── entities.py
-│   └── services.py
+|   ├── services
+│   │   └── __init__.py
+│   └── entities.py
 │
 ├── infrastructure/
 │   └── payment_gateway.py
@@ -33,7 +34,10 @@ roaming_system/
 │
 ├── application/
 │   └── controller.py
-│
+|
+├──.gitidnore
+├── ESTANDARES.md
+├── README.md
 └── main.py
 
 ```
